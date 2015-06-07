@@ -27,7 +27,7 @@ clean_data <- function(data) {
 
 build_plot <- function(data) {
   plot(data$Datetime, data$Global_active_power, type="l", ylab="Global Active Power", xlab="")
-  dev.copy(png, file="./figure/plot02.png", width=480, height=480)
+  dev.copy(png, file="plot02.png", width=480, height=480)
   dev.off()
 }
 

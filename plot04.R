@@ -47,7 +47,7 @@ build_plot <- function(data) {
      xlab="datetime")
 
   })
-  dev.copy(png, file="./figure/plot04.png", width=480, height=480)
+  dev.copy(png, file="plot04.png", width=480, height=480)
   dev.off()
 }
 
